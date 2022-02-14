@@ -3,40 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=duckdD">
+    <meta name="viewport" content="width=device-width, initial-scale=duckdD"> 
     <title>Duck</title>
     <link rel="stylesheet" href="index.css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class="main">
-        <div class="section-box__red">
-            <form action="">
-                <div>
-                    <label for="name">full name</label>
-                    <input type="text" required>
+    <div class="container">
+            <div class="container-red">
+                <form class="container-red__form form__text">
+                    <div>
+                        <label for="name">your name</label>
+                        <input type="text" class="form__text" required > 
+                    </div>
+                    <div>
+                        <label for="email">email</label>
+                        <input type="email" class="form__text" required placeholder="your email">
+                    </div>
+                    <div>
+                        <label for="msg_category">message regarding</label>
+                        <select id="msg_category" class="form__text" name="msg_category">
+                            <option value="none" selected > </option>
+                            <option value="Products"  >Products</option>
+                            <option value="Support">Support</option>
+                            <option value="Return">Return</option>
+                        </select>                              
+                    </div>
+                    <div>
+                        <label for="message">message</label>
+                        <textarea name="message" class="form__text form_textarea" placeholder="your message" ></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" class="submit form__text" value="send message">
+                    </div>
+                </form>
+                <div class="container-red__yellow">
+                    <img class="section-duck__img" src="/images/duck-img.png" alt="">
                 </div>
-                <div>
-                    <label for="email">email</label>
-                    <input type="email" required placeholder="your email">
-                </div>
-                <div>
-                    <label for="message">message regarding</label>
-                    <textarea name="message" autofocus style="width:213px; height:72px;"></textarea>
-                </div>
-                <div>
-                    <label for="message">message</label>
-                    <textarea name="message" placeholder="your message" style="width:400px; height:72px;"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="send message">
-                </div>
-            </form>
-        </div>
-        <div class="section-box__yellow"></div>
-        <img src="/images/duck-img.png" alt="">
-    </main>
-
-   
-    
+            </div>
+    </div> 
 </body>
 </html>
