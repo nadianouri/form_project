@@ -1,0 +1,23 @@
+body {
+    background-color: #9DBEBB;
+}
+
+.main {
+    display: flex ;
+    justify-content: center;
+   
+}
+.section {
+}
+
+.section-box__red {
+    background-color: #BE0909;
+    width: 654px ;
+    height: 594px ;
+}
+.section-box__yellow {
+    background-color: #FFB039;
+    width: 345px;
+    height: 594px;
+    
+}
