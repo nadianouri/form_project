@@ -3,7 +3,7 @@ body {
     margin: 0px;
     height: 100%;
 }
-
+/*  how to center the element on the page without scrolling? */
 .container {
     display: flex;
     justify-content: center;
@@ -12,28 +12,27 @@ body {
     height: 900px;
     background-color: #9DBEBB;
 }
-.container-red {
+.box-red {
     width: 954px ;
     height: 594px;
     display: flex ;
     justify-content: space-between;
     background-color: #BE0909;  
 }
-.container-red__yellow {
+.box-red__yellow {
     background-color: #FFB039;
     width: 345px;
     height: 594px; 
     display: flex;
     justify-content: center;    
 } 
-.section-duck__img {
+.box-red__duck-img {
     width: 663px;
     height: 603px;
     margin-top: 52px;
     margin-right: 221px;  
 }
-
-.container-red__form {
+.box-red__form {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -41,7 +40,6 @@ body {
     padding-top: 68px;
     padding-bottom: 64px;
 }
-
 .form__text {
     font-family:'Roboto', sans-serif;
     font-size: 18px;
@@ -50,17 +48,14 @@ body {
     color: #FEFFFF; 
     text-transform: capitalize;
 }
-
 form {
     width: 663px;
 }
-
-form>div{
+form>div {
     display: contents;
     height: 72px;
     width: 70%;
 }
-
 input, select , textarea {
     background: none;
     border: none;
@@ -68,11 +63,9 @@ input, select , textarea {
     border-bottom: 1px solid #9DBEBB;
     width: 70%;
 }
-
 textarea {
     height: 72px;
 }
-
 .submit {
     border-radius: 40px;
     background-color: #468189;
